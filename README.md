@@ -2,6 +2,10 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## Getting Started
 
+
+to see this todo-app you can visit https://next-react-todo-app.vercel.app/
+
+
 First, run the development server:
 
 ```bash
