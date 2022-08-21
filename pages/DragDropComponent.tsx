@@ -62,7 +62,7 @@ const DragDropComponent: NextPage = () => {
                             {...provided.dragHandleProps}
                             className="transition-none"
                           >
-                            <div className="bg-orange-200 text-gray-800 m-2 p-5 hover:scale-105 transition shadow-black shadow-inner">
+                            <div className="bg-orange-200 text-gray-800 m-2 p-5 md:hover:scale-105 transition shadow-black shadow-inner">
                               <div className="flex justify-between">
                                 {isEdit !== item.date ? (
                                   <h3 className="text-lg">
@@ -167,7 +167,7 @@ const DragDropComponent: NextPage = () => {
                             {...provided.dragHandleProps}
                             className="transition-none"
                           >
-                            <div className="bg-orange-200 text-gray-800 m-2 p-5 hover:scale-105 transition-all shadow-inner shadow-black">
+                            <div className="bg-orange-200 text-gray-800 m-2 p-5 md:hover:scale-105 transition-all shadow-inner shadow-black">
                               <div className="flex justify-between">
                                 {isEdit !== item.date ? (
                                   <h3 className="text-lg">
